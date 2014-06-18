@@ -1,0 +1,26 @@
+#measures {
+    padding-left: 20px;
+}
+
+.measure {
+    padding: 15px;
+    width: 600px;
+}
+
+.border-bottom {
+    border-bottom: thin solid #444444;
+}
+
+.icon-edit {
+    background-image: url("../img/edit-1.png");
+    background-position: 0 0;
+    background-size:30px 30px;
+    background-repeat:no-repeat;
+}
+
+.icon-trash {
+    background-image: url("../img/trash-1.png");
+    background-position: 0 0;
+    background-size:30px 30px;
+    background-repeat:no-repeat;
+}
