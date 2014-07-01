@@ -5,10 +5,9 @@
 
 <div class="well sidebar-nav">
 	<ul class="nav nav-list">
-		<li class="nav-header">Sections</li>
-		<c:forEach var="s" items="${sections}">
-			<!-- todo: this is not selecting the active class! -->
-			<li> <a href="/measure/findAll">${s.header}</a> </li>
+		<li class="nav-header">Super Powers</li>
+		<c:forEach var="s" items="${a_list_of_super_powers}">
+			<li> <a href="/test/find-super-powers/${s}">${s}</a> </li>
 		</c:forEach>
 	</ul>
 </div>

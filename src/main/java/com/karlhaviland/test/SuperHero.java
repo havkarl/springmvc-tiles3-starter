@@ -3,7 +3,7 @@ package com.karlhaviland.test;
 /**
  * A small test Java bean with fields on it.
  */
-public class Test {
+public class SuperHero {
 	private String name;
 	private String superPower;
 
